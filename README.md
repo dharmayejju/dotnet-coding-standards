@@ -80,9 +80,9 @@ These are areas we’re not exactly standardized on yet, but we have some strong
 
 All development should be considered “mobile-first” in that every part of the functionality needs to be considered for mobile sizes, as well as for touch devices in general. We use frameworks like Foundation as much as possible for this to create reasonable grid layouts built for whatever target browsers the client needs. If they’re IE8+, we use Float-based grids. If they’re 10+ we can use Flex grids, etc.
 
-Any time you’d use `:hover`, you should also use `:focus`. Any time you’d bind a `click` handler, bind it for `touch` also.
+Any time you’d use `:hover`, you should also use `:focus`; any time you’d bind a `click` handler, bind it for `touch` also.
 
-In general, try to thin in terms of "graceful degredation" so that functionality works across all platforms by default and platform-specific effects can be layered on top of that. 
+In general, try to think in terms of "graceful degredation" so that functionality works across all platforms by default and platform-specific effects can be layered on top of that. 
 
 We use `modernizr.js` for polyfills for older browsers.
 
@@ -91,10 +91,13 @@ We use `modernizr.js` for polyfills for older browsers.
 ## Accessibility
 
 For the smaller applications we usually build in .NET, the main points are to:
-1.	Use semantic HTML5 tags, semantic headings, and ARIA roles
+1.	Use semantic HTML5 tags, semantic headings, and ARIA roles where needed
 2.	Use alt tags on images with visual descriptions of what’s in the image along with any text
-3.	Make sure forms have appropriate tab indexes and labels with label-for (even if hidden)
+3.	Make sure forms have appropriate tab indexes and labels with `label-for` (even if hidden)
 4.	Make sure every link is accessible with the keyboard, in a reasonable order
+
+For larger projects, aim to follow WCAG 2.0 standards:
+* https://www.w3.org/WAI/intro/wcag
 
 ## ARIA
 
@@ -141,7 +144,7 @@ The following HTML5 elements do not require their most-used ARIA roles in most c
 
 ## Internationalization
 
-When developing custom .NET applications and APIs, use Resource Files (`.resx`) where appropriate to allow for internationalization, as well as to cleanly separate concerns of what text shows in the app and where it can be edited. If there’s a need for text translations that can’t be compiled into a Resource, try to find a pre-built solution online or use a plugin appropriate to the platform instead of creating one from scratch.
+When developing custom .NET applications and APIs, use Resource Files (`.resx`) where appropriate to allow for internationalization, as well as to cleanly separate concerns of what text shows in the app and where it can be edited. If there’s a need for text translations that can’t be compiled into a Resource, try to find a pre-built solution online or use an existing package relevent to the platform instead of creating one from scratch.
 
 [**BACK TO TOP**](#snapshot-interactive-dotnet-coding-standards)
 
