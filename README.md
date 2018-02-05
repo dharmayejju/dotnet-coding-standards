@@ -1,4 +1,4 @@
-# SnapShot Interacive .NET Coding Standards
+# SnapShot Interacive DotNET Coding Standards
 
   * [Default Platforms and Frameworks](#default-platforms-and-frameworks)
   * [Web Coding Standards](#web-coding-standards)
@@ -33,7 +33,7 @@
     * iPhone / Android
     * iPad / Android Tablet
 
-[**BACK TO TOP**](#snapshot-interactive-.net-coding-standards)
+[**BACK TO TOP**](#snapshot-interactive-dotnet-coding-standards)
 
 ## Web Coding Standards
 
@@ -51,7 +51,7 @@ We really just want to use the strongest best-practices that are most widely use
 **HTML Coding Standards:** Follow the WC3 best practices where possible
 * https://www.w3schools.com/html/html5_syntax.asp
 
-[**BACK TO TOP**](#snapshot-interactive-.net-coding-standards)
+[**BACK TO TOP**](#snapshot-interactive-dotnet-coding-standards)
 
 ## Tooling Preferences
 
@@ -74,7 +74,7 @@ These are areas we’re not exactly standardized on yet, but we have some strong
 * Use a standard unit testing framework (nUnit, xUnit) and mocking library (Moq, Fakes)
 * In general, skip unit testing for “smaller” projects and Sitefinity builds
  
-[**BACK TO TOP**](#snapshot-interactive-.net-coding-standards)
+[**BACK TO TOP**](#snapshot-interactive-dotnet-coding-standards)
 
 ## Responsive Design
 
@@ -86,7 +86,7 @@ In general, try to thin in terms of "graceful degredation" so that functionality
 
 We use `modernizr.js` for polyfills for older browsers.
 
-[**BACK TO TOP**](#snapshot-interactive-.net-coding-standards)
+[**BACK TO TOP**](#snapshot-interactive-dotnet-coding-standards)
 
 ## Accessibility
 
@@ -137,29 +137,29 @@ The following HTML5 elements do not require their most-used ARIA roles in most c
 <section>
 ```
 
-[**BACK TO TOP**](#snapshot-interactive-.net-coding-standards)
+[**BACK TO TOP**](#snapshot-interactive-dotnet-coding-standards)
 
 ## Internationalization
 
 When developing custom .NET applications and APIs, use Resource Files (`.resx`) where appropriate to allow for internationalization, as well as to cleanly separate concerns of what text shows in the app and where it can be edited. If there’s a need for text translations that can’t be compiled into a Resource, try to find a pre-built solution online or use a plugin appropriate to the platform instead of creating one from scratch.
 
-[**BACK TO TOP**](#snapshot-interactive-.net-coding-standards)
+[**BACK TO TOP**](#snapshot-interactive-dotnet-coding-standards)
 
 ## Hosting and Deployment
 
 `TODO`
 
-[**BACK TO TOP**](#snapshot-interactive-.net-coding-standards)
+[**BACK TO TOP**](#snapshot-interactive-dotnet-coding-standards)
 
 
 ## Credits
 
 Created based on SnapShot's existing WordPress standards: https://github.com/snapshotinteractive/wp-coding-standards
 
-[**BACK TO TOP**](#snapshot-interactive-.net-coding-standards)
+[**BACK TO TOP**](#snapshot-interactive-dotnet-coding-standards)
 
 ## Contributing
 
 Please contribute via pull requests on [GitHub](https://github.com/snapshotinteractive/dotnet-coding-standards).
 
-[**BACK TO TOP**](#snapshot-interactive-.net-coding-standards)
+[**BACK TO TOP**](#snapshot-interactive-dotnet-coding-standards)
