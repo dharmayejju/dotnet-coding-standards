@@ -1,4 +1,4 @@
-# SnapShot Interacive DotNET Coding Standards
+# SnapShot Interactive DotNET Coding Standards
 
   * [Default Platforms and Frameworks](#default-platforms-and-frameworks)
   * [Web Coding Standards](#web-coding-standards)
